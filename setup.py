@@ -43,11 +43,11 @@ setup(
     ),
     install_requires=[
         "PyAudio",
-        "faster-whisper==1.0.1",
+        "faster-whisper",
         "torch",
         "torchaudio",
         "websockets",
-        "onnxruntime==1.16.0",
+        "onnxruntime",
         "ffmpeg-python",
         "scipy",
         "websocket-client",
